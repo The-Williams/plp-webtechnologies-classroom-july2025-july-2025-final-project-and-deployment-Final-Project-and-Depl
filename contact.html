@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — GreenWave Carwash</title>
+  <meta name="description" content="Contact GreenWave Carwash: book appointments, request quotes, or get directions." />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-grid">
+      <a class="brand" href="index.html" aria-label="GreenWave Carwash home">
+        <span class="brand-text">GreenWave Carwash</span>
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" role="navigation" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="cta" href="contact.html">Book Now</a>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <h1>Contact & Booking</h1>
+
+    <section class="contact-grid">
+      <form id="booking-form" class="contact-form" novalidate aria-label="Booking form">
+        <label for="name">Full name</label>
+        <input id="name" name="name" required type="text" placeholder="Your full name">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" required type="email" placeholder="you@domain.com">
+
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" placeholder="Optional">
+
+        <label for="service">Service</label>
+        <select id="service" name="service" required>
+          <option value="">Choose a service</option>
+          <option>Express Wash</option>
+          <option>Premium Detailing</option>
+          <option>Mobile Detail</option>
+        </select>
+
+        <label for="date">Preferred date</label>
+        <input id="date" name="date" type="date">
+
+        <label for="message">Message or special requests</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button class="btn btn-primary" type="submit">Request booking</button>
+        <p id="form-status" class="form-status" aria-live="polite"></p>
+      </form>
+
+      <aside class="contact-info" aria-label="Contact information">
+        <h2>Visit or call</h2>
+        <p>GreenWave Carwash<br>123 Eco Street, Cityville</p>
+        <p><strong>Phone:</strong> +254740945831</p>
+        <p><strong>Hours:</strong> Mon–Sat 8:00–18:00</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p><strong>GreenWave Carwash</strong></p>
+        <p>Eco-friendly carcare • +254740945831</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="index.html">Home</a> ·
+        <a href="about.html">About</a> ·
+        <a href="services.html">Services</a> ·
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="small">© 2025 GreenWave Carwash</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
