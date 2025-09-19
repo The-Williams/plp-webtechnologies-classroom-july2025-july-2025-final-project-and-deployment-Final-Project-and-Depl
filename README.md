@@ -52,11 +52,11 @@ git init
 git add .
 git commit -m "Initial GreenWave site"
 git branch -M main
-git remote add origin https://github.com/The-Williams/greenwave-carwash.git
 git push -u origin main
 In GitHub repo Settings → Pages, set Source to main branch.
 
-Visit https://The-Williams.github.io/greenwave-carwash
+Visit https://The-Williams.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
+
 
 👨‍💻 Author
 
